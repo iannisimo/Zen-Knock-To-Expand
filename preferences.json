@@ -1,0 +1,29 @@
+[
+  {
+    "property": "mod.knock-to-expand.targets",
+    "label": "Knock to expand",
+    "type": "dropdown",
+    "defaultValue": "sidebar",
+    "placeholder": false,
+    "options": [
+      { "label": "None (Zen default)", "value": "none" },
+      { "label": "Only sidebar", "value": "sidebar" },
+      { "label": "Only top toolbar", "value": "toolbar" },
+      { "label": "Sidebar and top toolbar", "value": "both" }
+    ]
+  },
+  {
+    "property": "mod.knock-to-expand.interval",
+    "label": "Max time between knocks (ms)",
+    "type": "string",
+    "value": "number",
+    "defaultValue": 400
+  },
+  {
+    "property": "mod.knock-to-expand.distance",
+    "label": "Min distance from the edge between knocks (px)",
+    "type": "string",
+    "value": "number",
+    "defaultValue": 30
+  }
+]

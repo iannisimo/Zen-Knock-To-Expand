@@ -1,0 +1,11 @@
+{
+  "name": "Zen Knock To Expand",
+  "description": "Compact mode: open the sidebar and/or top toolbar only with a double knock on their screen edge.",
+  "version": "1.0.0",
+  "preferences": "preferences.json",
+  "scripts": {
+    "knock-to-expand.uc.js": {
+      "include": ["chrome://browser/content/browser.xhtml"]
+    }
+  }
+}
